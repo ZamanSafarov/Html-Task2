@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    height: 300px;
+    text-align: center;
+    border-width: 2px;
+    border: solid;
+    font-family: 'Poppins', sans-serif;
+}

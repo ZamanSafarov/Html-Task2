@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    font-family: Lato,sans-serif;
+}
+.background-img1,.background-img2,.background-img3{
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity:0.60;
+}
+
+.background-img1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/image1.jpg);
+}
+.background-img2{
+    height: 400px;
+    background-image: url(../images/image2.jpg);
+    }
+.background-img3{
+    height: 400px;
+    background-image: url(../images/image3.jpg);
+}
+
+
+.background-img1 .border{
+    
+    width:500px;
+    padding: 20px;
+}
+.border{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-size:25px;
+    letter-spacing:7px;
+    text-transform:uppercase;
+}
+.background-img1 .web-name{
+    color: white;
+    background-color:rgb(2, 2, 2);
+    padding:20px;
+    
+}
+.section-all{ 
+    width: 100%;
+    height: 300px;
+    padding:50px 80px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(196, 193, 189);
+}
+.third,.second{
+    background-color: #282e34;
+    color: white;
+    
+}
+.background-img2 .border .web-name{
+    color: white;
+}
+.background-img2 .border{
+    margin-top: 50%;
+}
+.background-img3 .border  {
+    margin-top: 90%;
+}
+.background-img3 .border .web-name {
+    color: white;
+}
+.background-img1 .last {
+top: 320%;
+}
